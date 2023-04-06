@@ -1,0 +1,9 @@
+/* background */
+.background {
+    background-image: url('../images/background.jpg');
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+}
