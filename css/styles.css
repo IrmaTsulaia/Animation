@@ -1,9 +1,57 @@
-/* background */
-.background {
-    background-image: url('../images/background.jpg');
-    width: 100%;
-    background-size: cover;
-    height: 100vh;
-    position: relative;
-    z-index: 1;
-}
+.background-image{
+        width: 100%;
+        position: relative;
+    }
+
+    .background-image {
+        width: 100%;
+        position: relative;
+    }
+    .plane {
+        width: 350px;
+        position: absolute;
+        top: 20%;
+        left: 70%;
+        animation: plane 30s linear infinite;
+        transition: all 3s ease;
+    }
+    .cloud1 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        animation: cloud1 30s linear infinite;
+    }
+    .cloud2 {
+        position: absolute;
+        top: 65%;
+        left: 0;
+        animation: cloud2 30s linear infinite;
+    }
+    .plane2 {
+        width: 250px;
+        position: absolute;
+        top: 20%;
+        left: 70%;
+        z-index: 1;
+        transition: all 5s ease;
+    }
+    .plane2:hover {
+        width: 400px;
+        transform: rotate(45deg);
+    }
+    .plane:hover {
+        width: 450px;
+    }
+
+    @keyframes cloud1 {
+        from {top: 0; left: 0;}
+        to {top: 0; left: 70%;}
+    }
+    @keyframes cloud2 {
+        from {top: 65%; left: 0;}
+        to {top: 65%; left: 70%}
+    }
+    @keyframes plane {
+        from {top: 20%; left: 70%;}
+        to {top: 20%; left: 0;}
+    }

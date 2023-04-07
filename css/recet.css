@@ -1,8 +1,3 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -46,38 +41,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 a {
 	text-decoration: none;
 }
-* {
-	box-sizing: border-box;
-}
- 25  
-css/style.css
-@@ -0,0 +1,25 @@
-/* background */
-.background {
-    background-image: url('../img/wallp.jpg');
-    width: 100%;
-    background-size: cover;
-    height: 100vh;
-    position: relative;
-    z-index: 1;
-}
-
-.cosmonaut {
-    position: absolute;
-}
-
-.cosmonaut2 {
-    position: absolute;
-}
-
-.planet {
-    position: absolute;
-}
-
-.spaceship {
-    position: absolute;
-}
+* {box-sizing: border-box;}
